@@ -18,3 +18,10 @@ print(a.shape)
 #
 # # 위 예제는 다음과 동일합니다
 # print np.array([a[0, 1], a[0, 1]])  # 출력 "[2 2]"
+
+
+import numpy as np
+x = np.array([[1, 2, 3], [4, 5, 6]], np.int32)
+print(type(x))
+print(x.shape)
+print(x.dtype)
